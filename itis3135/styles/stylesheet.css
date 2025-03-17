@@ -2,7 +2,7 @@ h1 {
     color: #4F4789;
     margin-left: 3px;
     margin-top: 4px;
-
+    padding-bottom: 5px;
     font-family: 'Josefin Sans';
 }
 
@@ -12,6 +12,7 @@ h2 {
     margin-left: 3px;
     margin-top: 4px;
     font-family: 'Josefin Sans';
+    padding-bottom: 5px;
     
 }
 
