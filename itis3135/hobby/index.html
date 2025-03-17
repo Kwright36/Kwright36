@@ -219,9 +219,11 @@
             <p> 
                 Finding time to write is a constant battle, especially when one finally has the <i>time</i> to write, somehow motivation always seems to slip away.
                 Starting a habit is an excellent way to start. Whether it is at the beginning, middle, or end of the day, it is good to try and set aside some time for writing.
-                It doesn'
+                It doesn't have to be long. Even fifteen minutes can work. So I guess really the answer to when to write is...
 
             </p>
+
+            <p>When you <i>can</i>.</p>
 		</section>
 
         <section id="where">
@@ -357,13 +359,13 @@
     </main>
 
     <script>
-        document.querySelectorAll(".nav-link").forEach(button => {
+        document.querySelectorAll(".nav-link").forEach((button) => {
             button.addEventListener("click", function(event) {
                 event.preventDefault();
 
                 const sectionId = this.getAttribute("data-section");
 
-                document.querySelectorAll("section").forEach(section => {
+                document.querySelectorAll("section").forEach((section) => {
                     section.style.display ="none";
                 });
 
