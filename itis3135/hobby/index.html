@@ -252,6 +252,25 @@
     
 
     </main>
+
+    <script>
+        document.querySelectorAll(".nav-link").forEach(button => {
+            button.addEventListener("click", function(event) {
+                event.preventDefault();
+
+                const sectionId = this.getAttribute("data-section");
+
+                document.querySelectorAll("section").forEach(section => {
+                    section.style.display ="none";
+                });
+
+                const selectedSection = document.getElementById(sectionId);
+                if (selectedSection) {
+                    selectedSection.style.display = "block";
+                }
+            });
+        });
+    </script>
     <footer>
 
     <nav>
