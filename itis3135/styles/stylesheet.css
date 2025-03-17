@@ -1,8 +1,52 @@
-body {
-    background-color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+h1 {
+    color: #4F4789;
+    margin-left: 3px;
+    margin-top: 4px;
+    padding: auto;
 }
 
-nav > a {
-    color: black;
+h2 {
+    color: #4F4789;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 4px;
+    padding: auto;
+    
 }
+
+body {
+    background-color: #B6A6CA;
+    color: #461220;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+    margin-top: 4px;
+    padding: auto;
+}
+
+p {
+    padding-bottom: 4px;
+    margin-left: 3px;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link {
+    color:#FCB9B2;
+    background-color: transparent;
+}
+
+a:visited {
+    color:#B23A48;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #FED0BB;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+
+
+
