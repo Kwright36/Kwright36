@@ -3,6 +3,7 @@ h1 {
     margin-left: 3px;
     margin-top: 4px;
     padding: auto;
+    font-family: 'Josefin Sans';
 }
 
 h2 {
@@ -11,13 +12,14 @@ h2 {
     margin-left: 3px;
     margin-top: 4px;
     padding: auto;
+    font-family: 'Josefin Sans';
     
 }
 
 body {
     background-color: #B6A6CA;
     color: #461220;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'PT Sans';
     margin-left: 3px;
     margin-top: 4px;
     padding: auto;
@@ -27,11 +29,11 @@ p {
     padding-bottom: 4px;
     margin-left: 3px;
     margin-top: 4px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'PT Sans';
 }
 
 a:link {
-    color:#FCB9B2;
+    color:#D56AA0;
     background-color: transparent;
 }
 
