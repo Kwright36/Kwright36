@@ -1,4 +1,24 @@
 h1 {
-    font-family: 'Comic Sans';
+    font-family: 'Papyrus';
+    margin-left: 5px;
 }
 
+h2 {
+    font-family: "Comic Sans";
+    text-align: justify;
+}
+
+p {
+    font-family: "Comic Parchment";
+    font-size: 46pt;
+    text-align: center;
+    padding: 80;
+    margin: auto;
+}
+
+h3 {
+    font-family: "Dancing Script";
+    margin-right: 23px;
+    margin-top: 55px;
+
+}
