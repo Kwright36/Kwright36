@@ -26,5 +26,12 @@ h3 {
 
 .bullet {
     text-align: center;
-    
+
+}
+
+table, th, td{
+    border-top: solid #cf0b0b;
+    border-left: dashed #a4951e;
+    border-right: groove #aff9f7;
+    border-bottom: double #4d2d40;
 }
