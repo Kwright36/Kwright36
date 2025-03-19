@@ -9,15 +9,16 @@ h2 {
 }
 
 p {
-    font-family: "Comic Parchment";
+    font-family: "Comic Parchment, Comic Papyrus";
     font-size: 46pt;
     text-align: center;
     padding: 80;
     margin: auto;
+    background-color: #FFFF00;
 }
 
 h3 {
-    font-family: "Dancing Script";
+    font-family: "Times New Roman";
     margin-right: 23px;
     margin-top: 55px;
 
