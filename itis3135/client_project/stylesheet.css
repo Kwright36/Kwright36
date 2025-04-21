@@ -1,0 +1,58 @@
+h1 {
+    color: #4F4789;
+    margin-left: 3px;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans';
+}
+
+h2 {
+    color: #4F4789;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 4px;
+    font-family: 'Josefin Sans';
+    padding-bottom: 5px;
+    
+}
+
+body {
+    background-color: #B6A6CA;
+    color: #461220;
+    font-family: 'PT Sans';
+    margin-left: 3px;
+    margin-top: 4px;
+  
+}
+
+p {
+    padding-bottom: 4px;
+    margin-left: 3px;
+    margin-top: 4px;
+    font-family: 'PT Sans';
+}
+
+a:link {
+    color:#B23A48;
+    background-color: transparent;
+}
+
+a:visited {
+    color:#4F3824;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #FED0BB;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+img {
+    justify-content: center;
+
+}
+
+
+
