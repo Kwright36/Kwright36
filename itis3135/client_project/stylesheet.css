@@ -56,3 +56,47 @@ img {
 
 
 
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    text-align: left;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.dropdown-content img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+#what {
+display: block;
+}
