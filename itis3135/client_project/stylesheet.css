@@ -78,7 +78,7 @@ img {
 }
 
 
-.dropdown-content button {
+.dropdown-content a {
     background: none;
     border: none;
     color: white;
@@ -96,6 +96,12 @@ img {
     vertical-align: middle;
     margin: 0 10px;
 }
+
+.dropdown-content a, .dropdown-content img {
+    display: block;
+    margin: 10px 0;
+}
+
 
 #what {
 display: block;
