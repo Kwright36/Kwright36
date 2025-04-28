@@ -110,3 +110,17 @@ display: block;
 scrolled {
     background-color: #222;
 }
+
+#quiz-section {
+    margin-top: 40px;
+}
+
+#quizAnswer {
+    padding: 8px;
+    width: 300px;
+}
+
+#quizResult {
+    margin-top: 10px;
+    font-weight: strong;
+}

@@ -7,3 +7,15 @@ window.addEventListener("scroll", function() {
         header.classList.remove("scrolled");
     }
 });
+
+function checkAnswer() {
+    const answer = document.getElementById('quizAnswer').value.toLowerCase();
+    const result = document.getElementById('quizResult');
+    if (answer === 'string') {
+        result.textContent = "Correct!";
+        result.style.color = "green";
+    } else {
+        result.textContent = "Not Quite!";
+        result.style.color = "red";
+    }
+}
