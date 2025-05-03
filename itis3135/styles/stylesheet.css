@@ -54,6 +54,10 @@ img {
 
 }
 
+table tr:nth-child(even) {
+    background-color: #846aa2;
+    color: #dfc3ca;
+}
 
 
 
