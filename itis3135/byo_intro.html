@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Intro Page</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+</head>
+<style type="default"></style>
+
+<body>
+<header>
+    <div data-include="components/header.html"></div>
+</header>
+    <main>
+        <h2>Build Your Own Intro Page</h2>
+        <h3>Ready to Build Your Own Intro Page? Fill Out The Form Below Now!</h3>
+        
+        <div id="form-wrapper">
+            <form id="survey-form" enctype="multipart/form-data" method="post">
+                <label for="first-name">First Name: </label> <br>
+                <input id="first-name" name="First Name" type="text" required placeholder="First Name"><br>
+
+                <label for="last-name">Last Name: </label> <br>
+                    <input id="last-name" name="Last Name" type="text" required placeholder="Last Name">
+                    <br>
+                <label for="mascot-name">Mascot Name:</label><br>
+                    <input id="mascot-name" name="Mascot Name" type="text" required placeholder="Mascot Name">
+                    <br>
+
+                <label for="user-image">Image</label><br>
+                <input id="user-image" name="User Image" type="file" accept=".jpg, .jpeg, .png" required><br>
+
+                <label for="image-caption">Image Caption:</label><br>
+                    <input id="image-caption" name="Image Caption" type="text" required placeholder="Image Caption">
+                    <br>
+
+                <label for="personal-background">Personal Background:</label><br>
+                    <textarea id="personal-background" name="Personal Background" required placeholder="Personal Background" rows="4" cols="50"></textarea>
+                    <br>
+
+                <label for="professional-background">Professional Background:</label><br>
+                    <textarea id="professional-background" name="Professional Background" required placeholder="Professional Background" rows="4" cols="50"></textarea>
+                    <br>
+
+
+                <label for="academic-background">Academic Background:</label><br>
+                    <textarea id="academic-background" name="Academic Background"  required placeholder="Academic Background" rows="4" cols="50"></textarea>
+                    <br>
+
+                <label for="webdev-background">Background in Web Development:</label><br>
+                    <textarea id="webdev-background" name="Web Dev Background" required placeholder="Background in Web Development" rows="4" cols="50"></textarea>
+                    <br>
+
+                <label for="computer-platform">Primary Computer Platform:</label><br>
+                    <input id="computer-platform" name="Computer Platform" type="text" required placeholder="Computer Platform">
+                    <br>
+
+                <label>Courses: </label><br>
+                <button type="button" id="add-course-button">Add Courses</button>
+                <div id="course-container"></div>
+
+                <label for="funny-thing">Something Funny About You:</label><br>
+                    <textarea id="funny-thing" name="Funny Thing" required placeholder="Something Funny About You" rows="4" cols="50"></textarea>
+                    <br>
+
+                <label for="anything-else">Anything Else to Add?</label><br>
+                    <textarea id="anything-else" name="Anything Else" required placeholder="Anything else to Add?" rows="4" cols="50"></textarea>
+                    <br>
+
+                <label>
+                    <input type="checkbox" required>
+                    I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+                </label><br><br>
+                
+                
+                
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+            </div>
+            <div id="reset-link"></div>
+
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>          
+
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+             document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+     </script>
+     <script src="scripts/HTMLInclude.min.js"></script>
+     <script src="scripts/survey.js"></script>
+
+</body>
+
+</html>
