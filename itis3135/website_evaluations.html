@@ -11,29 +11,8 @@
 
 <body>
     <header>
-        <h1> Keilee Wright's Killer Wombat || ITIS 3135 </h1>
-        <nav>
-            <a href="./">Home</a>
-        ||
-        <a href="introduction.html">Introduction</a>
-        ||
-        <a href="contract.html">Contract</a>
-        ||
-        </nav>
 
-
-
-        <nav>
-        <a href="whimsical_company/">Killer Wombat's Phantasms</a>
-        ||
-        <a href="wrightsknellenterprises.org/">Wright's Knell Enterprises</a>
-        ||
-        <a href="website_evaluations.html">Website Evaluations</a>
-        ||
-        <a href="questionablegirlstuffprobably/✿✿✿ LOOK AT ME ✿✿✿.htm">Crappy Webpage</a>
-        ||
-        <a href="hobby/index.html"> Hobby</a>
-        </nav>
+        <div data-include="components/header.html"></div>
 
     </header>
     <main>
@@ -110,41 +89,13 @@
 
     </main>
     <footer>
-
-        <nav>
-        <a href="https://webpages.charlotte.edu/kwrigh95/">Charlotte.edu</a>
-        ||
-        <a href="https://github.com/Kwright36">Github</a>
-        ||
-        <a href="https://kwright36.github.io/Kwright36/">Github.io</a>
-        ||
-        <a href="https://kwright36.github.io/Kwright36/itis3135/">itis3135.io</a>
-        ||
-        <a href="https://www.freecodecamp.org/kwrigh95">freeCodeCamp</a>
-        ||
-        <a href="https://www.codecademy.com/profiles/kwrigh95">codeAcademy</a>
-        ||
-        <a href="www.linkedin.com/in/keilee-wright-018a4613a">linkedIn</a>
-        ||
-        <a href="whimsical_company/">Killer Wombat's Phantasms</a>
-
-        </nav>
-
-        <p>Page created by <a href="wrightsknellenterprises.org">Wright's Knell Enterprises</a>&copy; 2025</p>
-
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-           </a>
-           <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-             </a>
-           
-           <script>
-              document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-                   document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-           </script>
-           
+        <div data-include="components/footer.html"></div>          
 
     </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+             document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+     </script>
+     <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
