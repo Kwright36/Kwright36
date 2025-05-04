@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+</head>
+<style type="default"></style>
+
+<body>
+<header>
+    <div data-include="components/header.html"></div>
+</header>
+    <main>
+        <h2>Keilee Wright Slideshow</h2>
+
+        <div class="container">
+            <div class="slides">
+                <div class="numbertext">1 / 12</div>
+                <img src="images/keurig.jpg" style="width:100%">
+            </div>
+        </div>
+
+            <div class="slides">
+                <div class="numbertext">2 / 12</div>
+                <img src="images/elevated.jpg" style="width:100%">
+            </div>
+
+
+
+            <div class="slides">
+                <div class="numbertext">3 / 12</div>
+                <img src="images/ice.jpg" style="width:100%">
+                </div>
+
+            <div class="slides">
+                <div class="numbertext">4 / 12</div>
+                <img src="images/lemon.jpg" style="width:100%">
+            </div>
+
+
+
+            <div class="slides">
+                <div class="numbertext">5 / 12</div>
+                <img src="images/error.jpg" style="width:100%">
+            </div>
+
+
+            <div class="slides">
+                <div class="numbertext">6 / 12</div>
+                <img src="images/eyes.jpg" style="width:100%">
+            </div>
+
+
+            <div class="slides">
+                <div class="numbertext">7 / 12</div>
+                <img src="images/whipped.jpg" style="width:100%">
+            </div>
+
+
+            <div class="slides">
+                <div class="numbertext">8 / 12</div>
+                <img src="images/reading.jpg" style="width:100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">9 / 12</div>
+                <img src="images/icarus.jpg" style="width:100%">
+            </div>
+
+
+            <div class="slides">
+                <div class="numbertext">10 / 12</div>
+                <img src="images/gods.jpg" style="width:100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">11 / 12</div>
+                <img src="images/hydrate.jpg" style="width:100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">12 / 12</div>
+                <img src="images/Teriyaki.jpg" style="width:100%">
+            </div>
+        </div>
+
+
+        <a class="prev" onclick="changingSlides(-1)">Go Back</a>
+        <a class="next" onclick="changingSlides(1)">Go Forward</a>
+        
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/keurig.jpg" onclick="currentSlide(1)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/elevated.jpg" onclick="currentSlide(1)" alt="">
+            </div>
+        </div>
+
+
+
+        <section>
+            <h3>Notes:</h3>
+            <ul>
+                <li>Websites Used
+                    <ol>
+                        <a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp"> How TO - Slideshow Gallery</a>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>          
+
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+             document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+     </script>
+     <script src="scripts/HTMLInclude.min.js"></script>
+     <script src="scripts/slideshowscript.js"></script>
+</body>
+
+</html>
