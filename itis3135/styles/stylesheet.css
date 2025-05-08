@@ -111,7 +111,7 @@ table tr:nth-child(odd) {
     width: auto;
     padding: 10px;
     margin-top: -30px;
-    color: black;
+    color: #475657;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -123,11 +123,12 @@ table tr:nth-child(odd) {
 }
 
 .prev:hover, .next:hover {
-    background-color: white;
+    background-color: #393A10;
 }
 
 .numbertext {
-    color: green;
+    color: 62929E;
+    background-color: #C6C5B9;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -136,9 +137,8 @@ table tr:nth-child(odd) {
 
 .caption-container {
     text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
+    background-color: #393A10;
+    color: #393A10;
   }
 
 .row:after {
