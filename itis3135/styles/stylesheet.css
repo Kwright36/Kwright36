@@ -77,14 +77,19 @@ table {
     margin-left: 25px;
     text-align: left;
 } 
-table tr:nth-child(1) {
-    background-color: #794aae;
-    color: #E6E6E9;
+table th {
+    background-color: #41275D;
+    color: #00CC3D;
 }
 
 table tr:nth-child(even) {
-    background-color: #846aa2;
-    color: #E6E6E9;
+    background-color: #543479;
+    color: #00CC3D;
+}
+
+table tr:nth-child(odd) {
+    background-color: #7245A5;
+    color: #14FF5B;
 }
 
 *{
