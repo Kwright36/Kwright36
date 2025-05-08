@@ -75,15 +75,16 @@ img {
 
 table {
     margin-left: 25px;
+    text-align: left;
 } 
 table tr:nth-child(1) {
     background-color: #794aae;
-    color: #dfc3ca;
+    color: #E6E6E9;
 }
 
 table tr:nth-child(even) {
     background-color: #846aa2;
-    color: #dfc3ca;
+    color: #E6E6E9;
 }
 
 *{
@@ -165,7 +166,6 @@ main {
     max-width: 1200px;
     width: 90%;
     margin: 0 quto;
-    text-align: justify;
 
 }
 
