@@ -2,7 +2,7 @@ h1 {
     color: #8A0000BD;
     margin-left: 3px;
     margin-top: 4px;
-    font-family: 'Chakra Petch';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -11,7 +11,7 @@ h2 {
     font-weight: bold;
     margin-left: 3px;
     margin-top: 4px;
-    font-family: 'Chakra Petch';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
@@ -19,7 +19,7 @@ h2 {
 body {
     background-color: #D9CFC1;
     color: #14342B; 
-    font-family: 'Questrial';
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
     margin-left: 3px;
     margin-top: 4px;
     
@@ -27,9 +27,9 @@ body {
 
 p {
     padding-bottom: 4px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 4px;
-    font-family: 'Questrial';
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a:link {
@@ -48,3 +48,12 @@ a:hover {
     text-decoration: underline;
 
 } 
+
+header {
+    background-color: #EAB464;
+    margin: 5px;
+}
+
+footer {
+    background-color: #E2E2E2;
+}
